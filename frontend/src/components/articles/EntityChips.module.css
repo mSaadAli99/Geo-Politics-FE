@@ -1,0 +1,1 @@
+﻿.groups{display:grid;gap:1rem}.groups h4{margin:0 0 .45rem}.chips{display:flex;gap:.45rem;flex-wrap:wrap}.chips a,.chips button,.static{border:1px solid var(--color-border);border-radius:999px;background:var(--color-surface-muted);color:var(--color-text);padding:.3rem .65rem;font-size:.8rem}.chips a:hover,.chips button:hover{border-color:var(--color-accent);text-decoration:none}

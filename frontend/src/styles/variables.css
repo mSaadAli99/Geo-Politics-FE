@@ -1,0 +1,63 @@
+:root {
+  --color-bg: #f3f4f6;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f9fafb;
+  --color-border: #e5e7eb;
+  --color-text: #111827;
+  --color-text-muted: #6b7280;
+  --color-accent: #1e3a8a;
+  --color-accent-hover: #1e40af;
+  --color-accent-soft: #dbeafe;
+  --color-positive: #16a34a;
+  --color-positive-bg: #dcfce7;
+  --color-negative: #dc2626;
+  --color-negative-bg: #fee2e2;
+  --color-neutral: #6b7280;
+  --color-neutral-bg: #f3f4f6;
+  --color-amber: #d97706;
+  --color-amber-bg: #fef3c7;
+  --color-shadow: 0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --color-shadow-md: 0 4px 12px rgba(15, 23, 42, 0.08);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --nav-height: 64px;
+  --max-width: 1280px;
+  --focus-ring: 0 0 0 3px rgba(30, 58, 138, 0.35);
+  --category-politics: #1e3a8a;
+  --category-economy: #0f766e;
+  --category-conflict: #b91c1c;
+  --category-international_relations: #7c3aed;
+  --category-global_affairs: #0369a1;
+}
+
+[data-theme='dark'] {
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-surface-muted: #162032;
+  --color-border: #334155;
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
+  --color-accent: #60a5fa;
+  --color-accent-hover: #93c5fd;
+  --color-accent-soft: #1e3a5f;
+  --color-positive: #4ade80;
+  --color-positive-bg: #14532d;
+  --color-negative: #f87171;
+  --color-negative-bg: #7f1d1d;
+  --color-neutral: #94a3b8;
+  --color-neutral-bg: #334155;
+  --color-amber: #fbbf24;
+  --color-amber-bg: #78350f;
+  --color-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  --color-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --focus-ring: 0 0 0 3px rgba(96, 165, 250, 0.4);
+}

@@ -1,0 +1,3 @@
+﻿import { Search, X } from 'lucide-react';
+import styles from './SearchBar.module.css';
+export default function SearchBar({ value = '', onChange, onSubmit, placeholder = 'Search news…' }) { const submit=(e)=>{e.preventDefault();onSubmit?.(value);}; return <form className={styles.search} onSubmit={submit} role="search"><label className="sr-only" htmlFor="news-search">Search</label><Search size={19}/><input id="news-search" value={value} onChange={(e)=>onChange?.(e.target.value)} placeholder={placeholder}/>{value && <button type="button" onClick={()=>onChange?.('')} aria-label="Clear search"><X size={17}/></button>}<button type="submit">Search</button></form>; }

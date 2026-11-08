@@ -1,0 +1,1 @@
+﻿.group{display:grid;gap:.65rem;width:100%}.skeleton{display:block;max-width:100%;border-radius:6px;background:linear-gradient(90deg,var(--color-border),var(--color-surface-muted),var(--color-border));background-size:200% 100%;animation:shimmer 1.3s infinite}@keyframes shimmer{to{background-position:-200% 0}}

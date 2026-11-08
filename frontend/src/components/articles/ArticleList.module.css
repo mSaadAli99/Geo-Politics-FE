@@ -1,0 +1,1 @@
+﻿.list{display:grid;gap:1rem}.loading{display:grid;grid-template-columns:180px 1fr;gap:1rem;padding:1rem;background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius)}@media(max-width:560px){.loading{grid-template-columns:1fr}}
